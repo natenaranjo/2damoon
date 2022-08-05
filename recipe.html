@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Tempalate</title>
+    <!-- Custom Css Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+  </head>
+  <body>
+    <div class="grid-container fluid">
+      <hr id="break">
+      <div class="grid-x grid-margin-x align-middle">
+        <div class="cell small-auto medium-auto large-auto">
+          <h1 class="text-center">| Recupera Con Grazia |</h>
+        </div>
+        <div class="cell small-4">
+          <form>
+            <div class="grid-contianer">
+              <div class="grid-x">
+                <div class="grid-x grid-padding-x">
+                  <label>
+                    <input id="searchTerm" type="text" placehole="Enter search term">
+                  </label>
+                </div>
+                <div class="grid-x grid-padding-x">
+                  <button id="search" class="submit success button">Search</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr id="break">
+    
+      <!-- Displaying search query on cards -->
+      <div class="grid-container fluid" id="display">
+        <div class="grid-x grid-padding-x">
+          <div class="cell small-auto medium-auto flex-container flex-dir-row">
+            <div class="callout flex-child-auto">
+              <div class="card">
+                <img src="./assets/img/food.jpg">
+                <div class="card-section">
+                <h4>This is a row of cards.</h4>
+                  <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                </div>
+              </div>
+            </div>
+            <div class="callout flex-child-auto">
+              <div class="card">
+                <img src="./assets/img/food.jpg">
+                <div class="card-section">
+                <h4>This is a row of cards.</h4>
+                  <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                </div>
+              </div>
+            </div>
+            <div class="callout flex-child-auto">
+              <div class="card">
+                <img src="./assets/img/food.jpg">
+                <div class="card-section">
+                <h4>This is a row of cards.</h4>
+                  <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                </div>
+              </div>
+            </div>
+            <div class="callout flex-child-auto">
+              <div class="card">
+                <img src="./assets/img/food.jpg">
+                <div class="card-section">
+                <h4>This is a row of cards.</h4>
+                  <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/vendor/jquery.js"></script>
+    <script src="./assets/js/vendor/what-input.js"></script>
+    <script src="./assets/js/vendor/foundation.min.js"></script>
+    <script src="./assets/js/recipe.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+</html>

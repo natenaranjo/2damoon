@@ -13,3 +13,11 @@
 ### Removed
 
 - Some packages/libraries from acknowledgements I no longer use
+
+
+## V0.0.1
+
+### Added or Changed
+- Updated the Readme file with screenshot
+- Updated the Readme file with Project name, about information, updated some of roadmap points.
+- Added the Figma file in the "View Demo" button.
