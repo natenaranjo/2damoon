@@ -1,4 +1,4 @@
-function Recipe() {
+function getRecipe() {
   //Getting the value of the user specified food selection//
   var foodSelection = $("input[name=selector]:checked").val();
 
