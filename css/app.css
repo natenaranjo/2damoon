@@ -7,34 +7,39 @@ body{
     background-repeat: no-repeat;
 }
 
+img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.50);
+}
+
 h1{
     font-family: cursive;
     font-weight: bolder;
+    font-size: 10vh;
 }
  
 h2{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+font-family:'Times New Roman', Times, serif;
 }
 
-.btnR{
-    border: solid;
+.btnR{   
     border-radius: 20px;
     background-color: rgb(122, 251, 122);
     padding: 10px 40px;
-    transition: all 0.2s;
-    
+    transition: all 0.2s; 
 }
 
 .btnR:hover{
     color:white;
-    border-color: black;
-    cursor: pointer;
-    
-    
+    cursor: pointer;    
+}
+
+.btnR:active{
+    background-color: green;
 }
 
 .btnC{
-    border: solid;
+   
     border-radius: 20px;
     background-color: rgb(255, 84, 119);
     padding: 10px 40px;
@@ -47,4 +52,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     cursor: pointer;
 }
 
+.btnC:active {
+    background-color: rgb(176, 0, 35);
+}
 
