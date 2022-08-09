@@ -25,8 +25,10 @@ font-family:'Times New Roman', Times, serif;
 .btnR{   
     border-radius: 20px;
     background-color: rgb(122, 251, 122);
-    padding: 10px 40px;
+    padding: 10px 20px;
     transition: all 0.2s; 
+    margin-right: 15px;
+    color:black;
 }
 
 .btnR:hover{
@@ -42,8 +44,10 @@ font-family:'Times New Roman', Times, serif;
    
     border-radius: 20px;
     background-color: rgb(255, 84, 119);
-    padding: 10px 40px;
+    padding: 10px 20px;
     transition: all 0.2s;
+    margin-right: 15px;
+    color:black;
 }
 
 .btnC:hover{
