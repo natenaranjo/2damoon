@@ -1,13 +1,6 @@
 body {
-    background-color: #393E46;
-    background-image: url('./Dark-Marble-Background-1-1024x683.jpg'); 
+    background-color: #393E46; 
     color: white;
-    font-family: system-ui;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
-
 }
 
 #food {
@@ -55,3 +48,6 @@ ol {
     border: 1px solid white;
 }
 
+.background-image {
+    background-image: url('./');
+}
