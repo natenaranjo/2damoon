@@ -1,7 +1,7 @@
-$(document).foundation()
+console.log("./assets/js/cocktail.js  was successfully loaded.");
 
 const searchForm = document.querySelector('form');
-const searchResultDiv = document.querySelector('#results');
+const searchResultDiv = document.querySelector('#resultsct');
 const container = document.querySelector('.grid-container');
 let searchQuery = '';
 
@@ -14,37 +14,63 @@ searchForm.addEventListener('submit', (e)=> {
 });
 
 async function fetchAPI () {
-    const baseURL = `www.thecocktaildb.com/api/json/v1/1/random.php`;
+    const baseURL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?f=${searchQuery}`;
     const response = await fetch(baseURL);
     const data = await response.json();
-    generateHTML(data.hits);
+    generateHTML(data.drinks);
     console.log(data);
 }
-/*
-function generateHTML(results){
+
+function generateHTML(drinks){
     let generatedHTML = '';
-    results.map(results => {
+    drinks.map(drinks => {
         generatedHTML +=
         `
           <div class="cell">
             <div class="card">
-              <img src="${results.recipe.image}">
+              <img src="${drinks.strDrinkThumb}">
               <div class="card-section">
-                <h4>${results.recipe.label}</h4>
+                <h4>${drinks.strDrink}</h4>
                 <hr id="break">
-                <p>Dish: ${results.recipe.dishType}</p>
-                <p>Ethnicity Type: ${results.recipe.cuisineType}</p>
-                <p>Ingredients: $(results.)
+                <p>Category: ${drinks.strCategory}</p>
               </div>
             </div>
           </div>
         
         `
-    
     })
     searchResultDiv.innerHTML = generatedHTML;
 }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+baseURL = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
+
+fetch(baseURL)
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        let cocktails = data;
+
+        cocktails.map(function(cocktail) {
+            let card = document.createElement('div');
+            let 
+        })
+    }
 
 function call(){
   for(i = 0; i < 5; i++){
@@ -54,5 +80,4 @@ function call(){
 };
 
 call();
-
-
+*/

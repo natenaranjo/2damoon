@@ -11,8 +11,8 @@
 body {
     padding: 0;
     margin: 0;
-    height: 97vh;
-    background-image: url(/assets/img/background.webp);
+    height: 100vh;
+    background-image: url(/assets/img/2damoon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,7 +22,7 @@ h1 {
     font-family: var(--head-font);
     font-weight: bold;
     text-shadow: 3px 4px rgba(0,0,0,0.3);
-
+    color: red;
 }
 
 p {
@@ -33,7 +33,6 @@ form{
     margin-bottom: 50px;
 }
 #searchTerm {
-
     border: 2px solid black;
     border-radius: 20px;
 }
@@ -69,4 +68,39 @@ form{
 .card-section p {
     font-family: var(--body-font);
     font-size: 1em;
+}
+
+#modal-recipe {
+    background-color: rgba(69, 72, 127, 0.999);
+    border-radius: 20px;
+}
+
+#modal-recipe h1 {
+    font-size: 5vw;
+    color: white;
+    text-shadow: 3px 4px rgb(40, 40, 40);
+}
+
+#modal-recipe h6 {
+    font-size: 2vw;
+    color: white;
+}
+
+#modal-recipe h3 {
+    font-size: 3vw;
+    color: white;
+}
+
+#modal-recipe p {
+    font-size: 2vw;
+    color: white;
+}
+
+#modal-recipe img {
+    
+}
+
+#break {
+    width: 80%;
+    border: 1px solid rgb(240, 61, 61);
 }
