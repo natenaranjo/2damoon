@@ -41,7 +41,7 @@
     <a href="https://github.com/hudiyev/Group5-Project-1"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://www.figma.com/proto/tuL8gCPRSXw8Q9YzPpzQxO/Recover-Gracefully?page-id=0%3A1&node-id=1%3A5&starting-point-node-id=2%3A38">View Demo</a>
     ·
     <a href="https://github.com/hudiyev/Group5-Project-1/issues">Report Bug</a>
     ·
