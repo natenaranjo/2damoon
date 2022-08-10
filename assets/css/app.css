@@ -16,6 +16,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+}
+
+#header {
+    height: 8vh;
 }
 
 h1 {
@@ -27,6 +32,15 @@ h1 {
 
 p {
     font-family: var(--body-font);
+}
+
+#recipeBtn, #drinkBtn {
+    color: red;
+    font-size: 30px;
+}
+
+#recipeBtn img:hover, #drinkBtn img:hover {
+    transform: scale(1.1);
 }
 
 form{
@@ -96,11 +110,29 @@ form{
     color: white;
 }
 
-#modal-recipe img {
-    
-}
-
 #break {
     width: 80%;
-    border: 1px solid rgb(240, 61, 61);
+    border: 1px solid white;
+}
+
+#angel, #slim, #nate {
+    width: 200px;
+}
+h6 {
+    font-family: var(--head-font);
+}
+
+#angel:hover, #slim:hover, #nate:hover {
+    transform: scale(1.1);
+}
+
+#angelModal, #slimModal, #nateModal {
+    background-color:rgba(71, 71, 71, 0.882);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+#angelModal h4, #slimModal h4, #nateModal h4 {
+    text-align: center;
 }
