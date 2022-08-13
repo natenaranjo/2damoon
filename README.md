@@ -1,76 +1,13 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="/assets/img/screenshot.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Recapera Con Grazia</h3>
-
-  <p align="center">
-    A modern sleek minimalist design recipe website.. This app will allow individuals to enter an ingredient to display a variety of receipes for use of that ingredient.  Another part of this app will be music or cocktails as part of the second api.  
-    <br />
-    <a href="https://github.com/hudiyev/Group5-Project-1"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://www.figma.com/proto/tuL8gCPRSXw8Q9YzPpzQxO/Recover-Gracefully?page-id=0%3A1&node-id=1%3A5&starting-point-node-id=2%3A38">View Demo</a>
-    ·
-    <a href="https://github.com/hudiyev/Group5-Project-1/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/hudiyev/Group5-Project-1/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
+<h3 align="center">2 da Moon Recipes and Cocktails</h3>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -105,34 +42,21 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+You and your group will use everything you’ve learned over the past six weeks to create a real-world front-end application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfil the following requirements:
+
+- [x] CSS Framework other than Bootstrap
+- [x] Deployed to Github Pages
+- [x] Be Interactive
+- [x] Use at least two API's
+- [x] No alerts, confirms, or prompts (use Modals)
+- [x] Be Responsive
+- [x] Polished UI
+- [x] Clean Repository
+- [x] Quaility Readme
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
@@ -141,26 +65,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
-* []()
+* [Angel](https://github.com/angeltried) - Frontend Development
+* [Slim](https://github.com/chris23rocha) - Frontend Development
+* [Nate](https://github.com/natenaranjo) - Backend Development
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
