@@ -12,7 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Screenshot](/assets/img/screenshot.png)
+[Screenshot](/assets/img/screenshot.png) | 
 [Live Demo](https://natenaranjo.github.io/2damoon/)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
